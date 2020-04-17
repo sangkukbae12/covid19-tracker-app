@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Covid-19 Tracker App 
+> 전세계 코로나19 바이러스의 감염, 회복, 사망 별로 추세를 살펴볼 수 있는 웹 입니다. 
 
-## Available Scripts
+데모: [https://nostalgic-edison-d0f412.netlify.app/](https://nostalgic-edison-d0f412.netlify.app/)
 
-In the project directory, you can run:
+### 전체 화면
+![](https://i.imgur.com/4KLbULK.png)
 
-### `yarn start`
+### 기능
+* 전세계 코로나19 바이러스 누적 및 신규 확진자/사망자 확인 
+* 국가 별 바이러스 진행 사항을 라인 차트로 확인 
+* 국가 별 감염자 및 사망자 전체 리스트 제공 (탭 별로 내림 차순, 올림 차순 검색 가능)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 실행
+```bash
+git clone git@github.com:sangkukbae/covid19-tracker-app.git
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```bash
+npm install 
+```
 
-### `yarn test`
+```bash
+npm start
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### API Data Source 
+* [https://covid19api.com/](https://covid19api.com/)
+* [https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest)
